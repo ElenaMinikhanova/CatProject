@@ -38,7 +38,7 @@ h2 {
     background: #fff;
     margin: 27px auto;
     display: flex;
-    padding: 13px 18px;
+    padding: 0 40px 0 0;
     gap: 60px;
 }
 .interest {
