@@ -83,6 +83,8 @@ h2 {
 .frends:hover {
     transition: transform 0.3s;
     transform: scale(1.5);
+    z-index: 2;
+    : ;
   }
 .top-btn {
     background: #7549ea;
