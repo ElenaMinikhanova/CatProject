@@ -37,7 +37,7 @@ h1 {
 }
 li {
     padding-left: 8px;
-    margin-button: 10px;
+    margin-bottom: 10px;
 }
 li::marker {
     font-weight: bold;
@@ -95,6 +95,10 @@ li::marker {
     transform: scale(1.5);
     z-index: 2;
   }
+.frends:active {
+    transition: transform 1s;
+    transform: rotate(360deg);
+}
 .top-btn {
     background: #7549ea;
     color: #fff;
