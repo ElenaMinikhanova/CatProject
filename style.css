@@ -91,13 +91,11 @@ li::marker {
     margin-left: -20px;
 }
 .frends:hover {
-    transition: transform 0.3s;
-    transform: scale(1.5);
     z-index: 2;
   }
 .frends:active {
     transition: transform 1s;
-    transform: scale(1.5) rotate(45deg);
+    transform: rotate(360deg);
 }
 .top-btn {
     background: #7549ea;
