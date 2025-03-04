@@ -29,8 +29,18 @@ h2 {
     font-size: 22px;
     color: #1f2937;
 }
+h1 {
+    margin: 0
+    }
 .aside-box {
     padding: 40px;
+}
+li {
+    padding-left: 8px;
+    margin-button: 10px;
+}
+li::marker {
+    font-weight: bold;
 }
 .wrapper {
     border-radius: 40px;
@@ -84,7 +94,6 @@ h2 {
     transition: transform 0.3s;
     transform: scale(1.5);
     z-index: 2;
-    : ;
   }
 .top-btn {
     background: #7549ea;
@@ -102,4 +111,44 @@ h2 {
 }
 .fren {
     margin: 48px 0;
+}
+.titlt-box {
+    display: flex;
+    align-items: center;
+    gap: 12px;
+    margin: 60px 0 0 -15px;
+}
+.info-box > p{
+    display: flex;
+    gap: 24px;
+}
+.info-box > p > b {
+    width: 80px;
+}
+.text {
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 171%;
+    color: #4a5161;
+}
+.list-item {
+    font-weight: bold;
+}
+.inner-list{
+    margin-top: 10px;
+    list-style-type: disc;
+}
+.inner-list > li {
+    font-weight: 400;
+    color: #4a5161;
+}
+.tun {
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 171%;
+    color: #4a5161;
+}
+.eda {
+    font-weight: 700;
+    color: #1f2937;
 }
